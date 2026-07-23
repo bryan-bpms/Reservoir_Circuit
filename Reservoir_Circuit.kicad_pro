@@ -586,6 +586,26 @@
       {
         "netclass": "SIGNAL",
         "pattern": "/ECHO"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "/SERVO_SIG"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "/B"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "/R"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "/G"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "/*_BUF"
       }
     ]
   },
@@ -729,7 +749,7 @@
         "uuid": "da5a1e6a-2605-436b-a30c-1027586d5c0a"
       }
     ],
-    "used_designators": "DS1,U1-3,#PWR1-16,C1-6,#FLG1-3,J3,TP1",
+    "used_designators": "M1,DS1,U1-4,#PWR1-19,C1-7,R1-3,#FLG1-3,J3,TP1,D1",
     "variants": []
   },
   "sheets": [
