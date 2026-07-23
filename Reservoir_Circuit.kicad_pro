@@ -582,6 +582,10 @@
       {
         "netclass": "SIGNAL",
         "pattern": "/BCD_*"
+      },
+      {
+        "netclass": "SIGNAL",
+        "pattern": "/ECHO"
       }
     ]
   },
@@ -725,7 +729,7 @@
         "uuid": "da5a1e6a-2605-436b-a30c-1027586d5c0a"
       }
     ],
-    "used_designators": "DS1,U1,#PWR1-11,C1-4,#FLG1-3,J3,TP1",
+    "used_designators": "DS1,U1-3,#PWR1-15,C1-6,#FLG1-3,J3,TP1",
     "variants": []
   },
   "sheets": [
