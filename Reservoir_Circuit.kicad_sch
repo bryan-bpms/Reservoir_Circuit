@@ -4503,6 +4503,374 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "L9110S:L9110S"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -0.762 5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "L9110S"
+				(at -3.556 -7.366 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "L9110S:SOIC127P599X172-8N"
+				(at 0.508 -14.986 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4489/4489_datasheet-l9110.pdf"
+				(at 1.27 -14.478 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SOP-8 MOTOR DRIVER ICS ROHS"
+				(at 0.254 -14.986 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "ON Semiconductor"
+				(at 0.508 -15.494 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.7272mm"
+				(at 0 -15.748 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 1.016 -15.748 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 -15.494 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/L9110S/Onsemi/view-part/?ref=eda"
+				(at 2.54 -14.478 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0.508 -14.732 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "NA"
+				(at 0.762 -12.954 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/L9110S/Onsemi/view-part/?ref=snap"
+				(at 2.032 -14.986 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "L9110S"
+				(at 0.254 -14.732 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "Not in stock"
+				(at 0.508 -14.732 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "UMW"
+				(at 0 -15.494 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "ki_keywords" "motor driver 2 channel"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "L9110S_0_0"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 10.16 1.27 180)
+					(length 5.08)
+					(name "OA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 3.81 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 1.27 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -1.27 180)
+					(length 5.08)
+					(name "OB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -1.27 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 3.81 180)
+					(length 5.08)
+					(name "IA"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -3.81 180)
+					(length 5.08)
+					(name "IB"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -3.81 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -4597,6 +4965,207 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Motor:Motor_DC"
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "M"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Motor_DC"
+				(at 2.54 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -2.286 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "DC Motor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "DC Motor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Motor_DC_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -3.302) (xy -1.27 0.508) (xy 0 -2.032) (xy 1.27 0.508) (xy 1.27 -3.302)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor_DC_0_1"
+				(polyline
+					(pts
+						(xy 0 2.032) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.7272) (xy 0 2.0828)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -1.524)
+					(radius 3.2512)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.7752) (xy 0 -5.1816)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -7.62) (xy 0 -7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Motor_DC_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -5475,6 +6044,12 @@
 		(uuid "1c883be5-ef9a-4d09-933b-40602fb1acbf")
 	)
 	(junction
+		(at 110.49 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2167da06-9e40-4a5b-856e-1a67c65384cf")
+	)
+	(junction
 		(at 200.66 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5497,6 +6072,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "361536a5-a726-4dde-87b7-20a4bcf3cb8d")
+	)
+	(junction
+		(at 110.49 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "397cdd50-9813-46ad-8e4c-44b056539a2c")
 	)
 	(junction
 		(at 128.27 139.7)
@@ -5527,6 +6108,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7297036d-8478-465b-a5e1-e7640b7d9664")
+	)
+	(junction
+		(at 105.41 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78889755-f022-4da8-9a0c-6f7dcc7a38dc")
 	)
 	(junction
 		(at 204.47 57.15)
@@ -5593,6 +6180,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b612945c-a484-4dd9-9680-7e3f3a2db96c")
+	)
+	(junction
+		(at 105.41 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce7bb685-e37c-4930-b8ee-8a4ff57ef0eb")
 	)
 	(junction
 		(at 208.28 76.2)
@@ -5732,6 +6325,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 83.82) (xy 133.35 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "012ecb99-5c9d-4795-b93f-1f49657dfdeb")
+	)
+	(wire
+		(pts
 			(xy 34.29 25.4) (xy 35.56 25.4)
 		)
 		(stroke
@@ -5752,6 +6355,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 73.66) (xy 143.51 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b8810a-5232-475b-849d-e3022ec23027")
+	)
+	(wire
+		(pts
 			(xy 50.8 185.42) (xy 50.8 189.23)
 		)
 		(stroke
@@ -5759,6 +6372,26 @@
 			(type default)
 		)
 		(uuid "0580a55f-cecf-49b2-aa5a-4c5e4e564c0e")
+	)
+	(wire
+		(pts
+			(xy 113.03 76.2) (xy 110.49 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "066a70d0-ff74-4d1d-9df7-6cb93f6a95a9")
+	)
+	(wire
+		(pts
+			(xy 133.35 81.28) (xy 139.7 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06f90da7-3f1f-47a6-96e2-4e396895b8aa")
 	)
 	(wire
 		(pts
@@ -5779,6 +6412,16 @@
 			(type default)
 		)
 		(uuid "1099e83b-6827-47fe-bbd2-5fd387dc449e")
+	)
+	(wire
+		(pts
+			(xy 110.49 83.82) (xy 105.41 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e14119-40a8-44c4-b19e-4fc02c0665b1")
 	)
 	(wire
 		(pts
@@ -5839,6 +6482,16 @@
 			(type default)
 		)
 		(uuid "131d3f05-b152-4cce-ac59-c8b9aedd5deb")
+	)
+	(wire
+		(pts
+			(xy 134.62 76.2) (xy 133.35 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "136a00f1-10eb-4354-8ffa-7c2e712ab822")
 	)
 	(wire
 		(pts
@@ -5972,6 +6625,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 71.12) (xy 105.41 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237a7161-e930-4373-ad6f-bb4d5f79ec0f")
+	)
+	(wire
+		(pts
 			(xy 208.28 78.74) (xy 220.98 78.74)
 		)
 		(stroke
@@ -6092,6 +6755,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 73.66) (xy 110.49 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a14444b-cfef-4c26-90cc-a83cd03c07c1")
+	)
+	(wire
+		(pts
 			(xy 224.79 121.92) (xy 255.27 121.92)
 		)
 		(stroke
@@ -6122,6 +6795,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 86.36) (xy 143.51 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f8a966c-f90f-4a76-9694-b311612efe71")
+	)
+	(wire
+		(pts
 			(xy 151.13 180.34) (xy 160.02 180.34)
 		)
 		(stroke
@@ -6149,6 +6832,16 @@
 			(type default)
 		)
 		(uuid "44905c97-e726-4247-9ba4-7af68917307a")
+	)
+	(wire
+		(pts
+			(xy 48.26 63.5) (xy 49.53 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46d293ef-e8b1-40ea-a50a-b040cfea60c4")
 	)
 	(wire
 		(pts
@@ -6192,6 +6885,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 78.74) (xy 139.7 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fc59e49-2ee3-4b5c-bd40-a74460775900")
+	)
+	(wire
+		(pts
 			(xy 208.28 66.04) (xy 208.28 76.2)
 		)
 		(stroke
@@ -6229,6 +6932,16 @@
 			(type default)
 		)
 		(uuid "5911c0b5-eb84-4e68-8ddd-9e7368a076cb")
+	)
+	(wire
+		(pts
+			(xy 110.49 78.74) (xy 113.03 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59311b0b-c82a-4242-863e-cf27300ee3a4")
 	)
 	(wire
 		(pts
@@ -6482,6 +7195,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 81.28) (xy 110.49 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "801315dd-0397-4785-a65a-2e816589bc91")
+	)
+	(wire
+		(pts
 			(xy 129.54 177.8) (xy 129.54 180.34)
 		)
 		(stroke
@@ -6499,6 +7222,16 @@
 			(type default)
 		)
 		(uuid "8219f98b-0bf3-44c3-b846-99c9ace57414")
+	)
+	(wire
+		(pts
+			(xy 139.7 81.28) (xy 139.7 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82b220d2-021f-4f1d-abfd-f42f027b1af4")
 	)
 	(wire
 		(pts
@@ -6529,6 +7262,16 @@
 			(type default)
 		)
 		(uuid "86ecb407-78e6-4587-b96f-3202d03ae490")
+	)
+	(wire
+		(pts
+			(xy 110.49 81.28) (xy 113.03 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac290e5-e00b-415c-ab37-a506ea9e8049")
 	)
 	(wire
 		(pts
@@ -6589,6 +7332,16 @@
 			(type default)
 		)
 		(uuid "93a3131c-2205-4734-b569-8115a6913a2d")
+	)
+	(wire
+		(pts
+			(xy 48.26 114.3) (xy 49.53 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93bfd358-2620-4689-8148-056bb4d972b9")
 	)
 	(wire
 		(pts
@@ -6689,6 +7442,16 @@
 			(type default)
 		)
 		(uuid "9dfc81f4-d3cf-4a96-b7fc-add7c148db4b")
+	)
+	(wire
+		(pts
+			(xy 105.41 82.55) (xy 105.41 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fcdebe4-a25d-49fd-9756-b1fa81551e23")
 	)
 	(wire
 		(pts
@@ -6922,6 +7685,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 73.66) (xy 110.49 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc1b27a-5fc2-4116-8e0f-c5b017311b60")
+	)
+	(wire
+		(pts
 			(xy 33.02 152.4) (xy 36.83 152.4)
 		)
 		(stroke
@@ -6949,6 +7722,16 @@
 			(type default)
 		)
 		(uuid "c16075c8-b1b5-46c2-a571-e151e0452b94")
+	)
+	(wire
+		(pts
+			(xy 139.7 78.74) (xy 139.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c24dc129-c3a4-4419-a694-9e518dd7002c")
 	)
 	(wire
 		(pts
@@ -7009,6 +7792,16 @@
 			(type default)
 		)
 		(uuid "cb30fa63-14cd-4600-80a0-0eaa995579a1")
+	)
+	(wire
+		(pts
+			(xy 105.41 73.66) (xy 105.41 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3ee2c8-e732-43ee-9470-1edbbf845c11")
 	)
 	(wire
 		(pts
@@ -7142,6 +7935,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 78.74) (xy 110.49 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b21605-1a74-421d-8fd7-fef15fe8b0be")
+	)
+	(wire
+		(pts
 			(xy 238.76 78.74) (xy 240.03 78.74)
 		)
 		(stroke
@@ -7149,6 +7952,16 @@
 			(type default)
 		)
 		(uuid "e769de32-56d0-4f48-b34b-7a873c841ab6")
+	)
+	(wire
+		(pts
+			(xy 113.03 83.82) (xy 110.49 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e89a7f6a-08b2-4fc6-8501-775e9ab64f46")
 	)
 	(wire
 		(pts
@@ -7189,6 +8002,16 @@
 			(type default)
 		)
 		(uuid "eb76ef4f-fda5-4171-9d17-ccdebdc73ba2")
+	)
+	(wire
+		(pts
+			(xy 105.41 83.82) (xy 105.41 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee24e831-354c-4e35-9b8e-2bc14d2aacdd")
 	)
 	(wire
 		(pts
@@ -7420,6 +8243,16 @@
 		)
 		(uuid "4402972e-5a15-40a5-9ba5-06f484c40e3a")
 	)
+	(label "OB"
+		(at 134.62 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "47920599-95f2-463e-9265-866973485afe")
+	)
 	(label "B_BUF"
 		(at 245.11 58.42 0)
 		(effects
@@ -7470,6 +8303,16 @@
 		)
 		(uuid "557516e3-6355-432c-b302-1cba0311db54")
 	)
+	(label "PB0"
+		(at 49.53 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "588109c1-a797-4db9-ab8d-6391c0e152dd")
+	)
 	(label "BCD_B1"
 		(at 226.06 116.84 0)
 		(effects
@@ -7489,6 +8332,16 @@
 			(justify right bottom)
 		)
 		(uuid "608e3edb-42a3-4eef-9bb5-1dcad2dc377d")
+	)
+	(label "PB0"
+		(at 134.62 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61f01dc6-ff9a-4536-8d28-c2e444e9b8fc")
 	)
 	(label "GND"
 		(at 49.53 48.26 0)
@@ -7660,6 +8513,16 @@
 		)
 		(uuid "a7a412e1-e8c5-457d-860b-8da78e2af185")
 	)
+	(label "OA"
+		(at 134.62 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7d525dd-4eb6-4c65-ada6-5100aaf4f1e8")
+	)
 	(label "G"
 		(at 262.89 71.12 0)
 		(effects
@@ -7730,6 +8593,16 @@
 		)
 		(uuid "c0817687-63a1-474c-a44b-48bfcf743abc")
 	)
+	(label "PB1"
+		(at 49.53 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7ba3221-04f3-4e35-a7f1-cdc921d27849")
+	)
 	(label "SERVO_SIG"
 		(at 199.39 52.07 180)
 		(effects
@@ -7739,6 +8612,16 @@
 			(justify right bottom)
 		)
 		(uuid "cefecb57-ef96-40e5-8dca-f09a6092dc6e")
+	)
+	(label "PB1"
+		(at 134.62 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc552f16-732f-4934-a718-93e81abb23a6")
 	)
 	(label "PC8"
 		(at 49.53 86.36 0)
@@ -8295,6 +9178,85 @@
 			(project "Reservoir_Circuit"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_3")
+		(lib_id "power:GND")
+		(at 105.41 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12b96bdc-0a86-4994-8b75-9da6c410a828")
+		(property "Reference" "#PWR021"
+			(at 105.41 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b253881e-4bdd-442d-b799-8eed1d75e53f")
+		)
+		(instances
+			(project "Reservoir_Circuit"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -9972,6 +10934,238 @@
 		)
 	)
 	(symbol
+		(lib_id "L9110S:L9110S")
+		(at 123.19 80.01 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "652b03f9-637e-409c-a199-92b5927e4004")
+		(property "Reference" "U5"
+			(at 123.19 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "L9110S"
+			(at 123.19 72.39 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "L9110S:SOIC127P599X172-8N"
+			(at 123.698 94.996 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4489/4489_datasheet-l9110.pdf"
+			(at 124.46 94.488 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SOP-8 MOTOR DRIVER ICS ROHS"
+			(at 123.444 94.996 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "ON Semiconductor"
+			(at 123.698 95.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.7272mm"
+			(at 123.19 95.758 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 124.206 95.758 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 123.19 95.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/L9110S/Onsemi/view-part/?ref=eda"
+			(at 125.73 94.488 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 123.698 94.742 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "NA"
+			(at 123.952 92.964 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/L9110S/Onsemi/view-part/?ref=snap"
+			(at 125.222 94.996 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "L9110S"
+			(at 123.444 94.742 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 123.698 94.742 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "UMW"
+			(at 123.19 95.504 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "9718959c-7589-4751-bbd0-55f2f0354536")
+		)
+		(pin "1"
+			(uuid "7dbe319a-d6e9-4ef1-a85b-89f01089966b")
+		)
+		(pin "5"
+			(uuid "61fef9f7-4432-4251-984f-951df7e3853b")
+		)
+		(pin "3"
+			(uuid "668471a4-0c81-4d17-901b-8906aec15992")
+		)
+		(pin "8"
+			(uuid "2d3b448d-17f0-4ba9-8499-074c4e639e96")
+		)
+		(pin "6"
+			(uuid "5e140303-eb14-4ff5-86c1-f454478a42a2")
+		)
+		(pin "4"
+			(uuid "ccf1c6fe-7cd5-4b2e-bd15-09e616ce0e14")
+		)
+		(pin "7"
+			(uuid "79f5c783-2da0-4fb0-9228-3ac45f57908f")
+		)
+		(instances
+			(project "Reservoir_Circuit"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SparkFun-Resistor:R")
 		(at 254 58.42 0)
 		(unit 1)
@@ -10218,6 +11412,88 @@
 			(project "Reservoir_Circuit"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 105.41 78.74 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9627d82a-f16a-4cae-84fd-846fbcbd8768")
+		(property "Reference" "C8"
+			(at 101.6 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 101.6 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 104.4448 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 105.41 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "555015fa-5c52-463d-8f6c-3aa1fa5f049f")
+		)
+		(pin "2"
+			(uuid "7232ae44-d05f-431e-af5a-463124ca6775")
+		)
+		(instances
+			(project "Reservoir_Circuit"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -11892,6 +13168,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Motor:Motor_DC")
+		(at 143.51 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f0421a9f-ceb6-4a1c-bcf7-c7c789d4782f")
+		(property "Reference" "M2"
+			(at 151.13 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Motor_DC"
+			(at 148.59 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 143.51 81.026 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 81.026 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "DC Motor"
+			(at 143.51 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "42d3570a-bb06-406a-9eaf-5f1bc0e85535")
+		)
+		(pin "2"
+			(uuid "67e061e9-88cb-4c33-b50d-c130b912c24e")
+		)
+		(instances
+			(project "Reservoir_Circuit"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(reference "M2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 52.07 189.23 270)
 		(unit 1)
@@ -11965,6 +13320,85 @@
 			(project "Reservoir_Circuit"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+5V_1")
+		(lib_id "power:+5V")
+		(at 105.41 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd0cdf23-5674-4d2c-b15a-71a731845738")
+		(property "Reference" "#PWR020"
+			(at 105.41 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V_EXT"
+			(at 105.41 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 105.41 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1fbb5ada-bc5d-48f2-bbea-05160c7e06eb")
+		)
+		(instances
+			(project "Reservoir_Circuit"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
