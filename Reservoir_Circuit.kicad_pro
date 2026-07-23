@@ -457,7 +457,7 @@
       "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "warning",
       "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
@@ -476,7 +476,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -521,6 +521,40 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "bus_width": 24,
+        "clearance": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "POWER",
+        "pcb_color": "rgb(204, 102, 0)",
+        "priority": 0,
+        "schematic_color": "rgb(204, 102, 0)",
+        "track_width": 0.5,
+        "tuning_profile": "",
+        "via_diameter": 1.2,
+        "via_drill": 0.6,
+        "wire_width": 12
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "SIGNAL",
+        "pcb_color": "rgb(132, 0, 132)",
+        "priority": 1,
+        "schematic_color": "rgb(132, 0, 132)",
+        "track_width": 0.25,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -528,7 +562,20 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "POWER",
+        "pattern": "+*"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "GND*"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "VDD*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -670,7 +717,7 @@
         "uuid": "da5a1e6a-2605-436b-a30c-1027586d5c0a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "DS1,U1,#PWR1-10,C1-4,#FLG1-3,J3",
     "variants": []
   },
   "sheets": [
