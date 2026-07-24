@@ -7,3 +7,5 @@ fp-info-cache
 *.kicad_prl
 # Do not track backups
 *.bak
+# Do not track PDFs
+*.pdf
